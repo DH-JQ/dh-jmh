@@ -1,0 +1,322 @@
+[
+    {
+        "jmhVersion" : "1.32",
+        "benchmark" : "com.duhao.string.StringConnect.testStringAdd",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "C:\\Program Files\\Java\\jdk1.8.0_241\\jre\\bin\\java.exe",
+        "jvmArgs" : [
+            "-Dvisualvm.id=1941780827872500",
+            "-javaagent:C:\\Program Files\\JetBrains\\IntelliJ IDEA 2021.2\\lib\\idea_rt.jar=10744:C:\\Program Files\\JetBrains\\IntelliJ IDEA 2021.2\\bin",
+            "-Dfile.encoding=UTF-8"
+        ],
+        "jdkVersion" : "1.8.0_241",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "25.241-b07",
+        "warmupIterations" : 1,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 1,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "length" : "10"
+        },
+        "primaryMetric" : {
+            "score" : 1.2926542569775996E-4,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 1.2926542569775996E-4,
+                "50.0" : 1.2926542569775996E-4,
+                "90.0" : 1.2926542569775996E-4,
+                "95.0" : 1.2926542569775996E-4,
+                "99.0" : 1.2926542569775996E-4,
+                "99.9" : 1.2926542569775996E-4,
+                "99.99" : 1.2926542569775996E-4,
+                "99.999" : 1.2926542569775996E-4,
+                "99.9999" : 1.2926542569775996E-4,
+                "100.0" : 1.2926542569775996E-4
+            },
+            "scoreUnit" : "ms/op",
+            "rawData" : [
+                [
+                    1.2926542569775996E-4
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.32",
+        "benchmark" : "com.duhao.string.StringConnect.testStringAdd",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "C:\\Program Files\\Java\\jdk1.8.0_241\\jre\\bin\\java.exe",
+        "jvmArgs" : [
+            "-Dvisualvm.id=1941780827872500",
+            "-javaagent:C:\\Program Files\\JetBrains\\IntelliJ IDEA 2021.2\\lib\\idea_rt.jar=10744:C:\\Program Files\\JetBrains\\IntelliJ IDEA 2021.2\\bin",
+            "-Dfile.encoding=UTF-8"
+        ],
+        "jdkVersion" : "1.8.0_241",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "25.241-b07",
+        "warmupIterations" : 1,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 1,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "length" : "50"
+        },
+        "primaryMetric" : {
+            "score" : 9.874766231976594E-4,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 9.874766231976594E-4,
+                "50.0" : 9.874766231976594E-4,
+                "90.0" : 9.874766231976594E-4,
+                "95.0" : 9.874766231976594E-4,
+                "99.0" : 9.874766231976594E-4,
+                "99.9" : 9.874766231976594E-4,
+                "99.99" : 9.874766231976594E-4,
+                "99.999" : 9.874766231976594E-4,
+                "99.9999" : 9.874766231976594E-4,
+                "100.0" : 9.874766231976594E-4
+            },
+            "scoreUnit" : "ms/op",
+            "rawData" : [
+                [
+                    9.874766231976594E-4
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.32",
+        "benchmark" : "com.duhao.string.StringConnect.testStringAdd",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "C:\\Program Files\\Java\\jdk1.8.0_241\\jre\\bin\\java.exe",
+        "jvmArgs" : [
+            "-Dvisualvm.id=1941780827872500",
+            "-javaagent:C:\\Program Files\\JetBrains\\IntelliJ IDEA 2021.2\\lib\\idea_rt.jar=10744:C:\\Program Files\\JetBrains\\IntelliJ IDEA 2021.2\\bin",
+            "-Dfile.encoding=UTF-8"
+        ],
+        "jdkVersion" : "1.8.0_241",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "25.241-b07",
+        "warmupIterations" : 1,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 1,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "length" : "100"
+        },
+        "primaryMetric" : {
+            "score" : 0.003668590021787387,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 0.003668590021787387,
+                "50.0" : 0.003668590021787387,
+                "90.0" : 0.003668590021787387,
+                "95.0" : 0.003668590021787387,
+                "99.0" : 0.003668590021787387,
+                "99.9" : 0.003668590021787387,
+                "99.99" : 0.003668590021787387,
+                "99.999" : 0.003668590021787387,
+                "99.9999" : 0.003668590021787387,
+                "100.0" : 0.003668590021787387
+            },
+            "scoreUnit" : "ms/op",
+            "rawData" : [
+                [
+                    0.003668590021787387
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.32",
+        "benchmark" : "com.duhao.string.StringConnect.testStringBuilderAdd",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "C:\\Program Files\\Java\\jdk1.8.0_241\\jre\\bin\\java.exe",
+        "jvmArgs" : [
+            "-Dvisualvm.id=1941780827872500",
+            "-javaagent:C:\\Program Files\\JetBrains\\IntelliJ IDEA 2021.2\\lib\\idea_rt.jar=10744:C:\\Program Files\\JetBrains\\IntelliJ IDEA 2021.2\\bin",
+            "-Dfile.encoding=UTF-8"
+        ],
+        "jdkVersion" : "1.8.0_241",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "25.241-b07",
+        "warmupIterations" : 1,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 1,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "length" : "10"
+        },
+        "primaryMetric" : {
+            "score" : 6.27279793769844E-5,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 6.27279793769844E-5,
+                "50.0" : 6.27279793769844E-5,
+                "90.0" : 6.27279793769844E-5,
+                "95.0" : 6.27279793769844E-5,
+                "99.0" : 6.27279793769844E-5,
+                "99.9" : 6.27279793769844E-5,
+                "99.99" : 6.27279793769844E-5,
+                "99.999" : 6.27279793769844E-5,
+                "99.9999" : 6.27279793769844E-5,
+                "100.0" : 6.27279793769844E-5
+            },
+            "scoreUnit" : "ms/op",
+            "rawData" : [
+                [
+                    6.27279793769844E-5
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.32",
+        "benchmark" : "com.duhao.string.StringConnect.testStringBuilderAdd",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "C:\\Program Files\\Java\\jdk1.8.0_241\\jre\\bin\\java.exe",
+        "jvmArgs" : [
+            "-Dvisualvm.id=1941780827872500",
+            "-javaagent:C:\\Program Files\\JetBrains\\IntelliJ IDEA 2021.2\\lib\\idea_rt.jar=10744:C:\\Program Files\\JetBrains\\IntelliJ IDEA 2021.2\\bin",
+            "-Dfile.encoding=UTF-8"
+        ],
+        "jdkVersion" : "1.8.0_241",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "25.241-b07",
+        "warmupIterations" : 1,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 1,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "length" : "50"
+        },
+        "primaryMetric" : {
+            "score" : 5.148046565562439E-4,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 5.148046565562439E-4,
+                "50.0" : 5.148046565562439E-4,
+                "90.0" : 5.148046565562439E-4,
+                "95.0" : 5.148046565562439E-4,
+                "99.0" : 5.148046565562439E-4,
+                "99.9" : 5.148046565562439E-4,
+                "99.99" : 5.148046565562439E-4,
+                "99.999" : 5.148046565562439E-4,
+                "99.9999" : 5.148046565562439E-4,
+                "100.0" : 5.148046565562439E-4
+            },
+            "scoreUnit" : "ms/op",
+            "rawData" : [
+                [
+                    5.148046565562439E-4
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    },
+    {
+        "jmhVersion" : "1.32",
+        "benchmark" : "com.duhao.string.StringConnect.testStringBuilderAdd",
+        "mode" : "avgt",
+        "threads" : 1,
+        "forks" : 1,
+        "jvm" : "C:\\Program Files\\Java\\jdk1.8.0_241\\jre\\bin\\java.exe",
+        "jvmArgs" : [
+            "-Dvisualvm.id=1941780827872500",
+            "-javaagent:C:\\Program Files\\JetBrains\\IntelliJ IDEA 2021.2\\lib\\idea_rt.jar=10744:C:\\Program Files\\JetBrains\\IntelliJ IDEA 2021.2\\bin",
+            "-Dfile.encoding=UTF-8"
+        ],
+        "jdkVersion" : "1.8.0_241",
+        "vmName" : "Java HotSpot(TM) 64-Bit Server VM",
+        "vmVersion" : "25.241-b07",
+        "warmupIterations" : 1,
+        "warmupTime" : "10 s",
+        "warmupBatchSize" : 1,
+        "measurementIterations" : 1,
+        "measurementTime" : "10 s",
+        "measurementBatchSize" : 1,
+        "params" : {
+            "length" : "100"
+        },
+        "primaryMetric" : {
+            "score" : 0.0010081975745824953,
+            "scoreError" : "NaN",
+            "scoreConfidence" : [
+                "NaN",
+                "NaN"
+            ],
+            "scorePercentiles" : {
+                "0.0" : 0.0010081975745824953,
+                "50.0" : 0.0010081975745824953,
+                "90.0" : 0.0010081975745824953,
+                "95.0" : 0.0010081975745824953,
+                "99.0" : 0.0010081975745824953,
+                "99.9" : 0.0010081975745824953,
+                "99.99" : 0.0010081975745824953,
+                "99.999" : 0.0010081975745824953,
+                "99.9999" : 0.0010081975745824953,
+                "100.0" : 0.0010081975745824953
+            },
+            "scoreUnit" : "ms/op",
+            "rawData" : [
+                [
+                    0.0010081975745824953
+                ]
+            ]
+        },
+        "secondaryMetrics" : {
+        }
+    }
+]
+
+
